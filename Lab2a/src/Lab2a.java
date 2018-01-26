@@ -14,6 +14,7 @@ public class Lab2a {
 		char chr = 'l';
 		String str = new String("Im happy");
 		boolean bool = false;
+		Scanner s = new Scanner(System.in);
 		//---Printing each variable to the screen
 			System.out.format("**** Part1: ****\n");
 			System.out.printf("Byte = %d\n", byt);
@@ -24,7 +25,7 @@ public class Lab2a {
 			System.out.printf("Double = %G\n", dbl);
 			System.out.printf("Char = %c\n", chr);
 			System.out.printf("String = %s\n", str);
-			System.out.printf("Boolen = %b\n", bool);	
+			System.out.printf("Boolean = %b\n", bool);	
 		//----------------PART 2-------------------//
 			System.out.format("**** Part2: ****\n");
 			Scanner Input = new Scanner(System.in);
@@ -53,9 +54,49 @@ public class Lab2a {
 			dbl = Input.nextDouble();
 			System.out.printf("Double = %G\n", dbl);
 			//Char User Input Field//
+			System.out.print("Enter a char: ");
+			chr = s.next().charAt(0);
+			System.out.printf("Char = %c\n", chr);
 			//String User Input Field//
+			System.out.print("Enter a string: ");
+			str = Input.next();
+			System.out.printf("String = %s\n", str);			
 			//Boolean User Input Field//
-			
+			System.out.print("Enter a boolean: ");
+			bool = Input.nextBoolean();
+			System.out.printf("Boolean = %b\n", bool);
+			//Answer
+			/*
+			 ***** Part1: ****
+			Byte = 74
+			Short = 16
+			Int = 4
+			Long Int = 64
+			Float = 4.700000
+			Double = 3.30000
+			Char = l
+			String = Im happy
+			Boolean = false
+			**** Part2: ****
+			Enter a byte: 5
+			Byte = 5
+			Enter a short: 	2
+			Short = 2
+			Enter a int: 	14
+			Int = 14
+			Enter a long: 33333
+			Long = 33333
+			Enter a float: 	3.2
+			Float = 3.200000
+			Enter a double: 2.67
+			Double = 2.67000
+			Enter a char: k
+			Char = k
+			Enter a string: Hi
+			String = Hi
+			Enter a boolean: True
+			Boolean = true
+			*/
 	}
 
 }
