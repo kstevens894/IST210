@@ -65,7 +65,7 @@ public class Lab2a {
 			System.out.print("Enter a boolean: ");
 			bool = Input.nextBoolean();
 			System.out.printf("Boolean = %b\n", bool);
-			//Answer
+			//------------OUTPUT Answer-------------//
 			/*
 			 ***** Part1: ****
 			Byte = 74
