@@ -33,10 +33,25 @@ public class Lab2a {
 			byt = Input.nextByte();
 			System.out.printf("Byte = %d\n", byt);
 			//Short User Input Field//
+			System.out.print("Enter a short: ");
+			shrt = Input.nextShort();
+			System.out.printf("Short = %d\n", shrt);
 			//Int User Input Field//
+			System.out.print("Enter a int: ");
+			nt = Input.nextInt();
+			System.out.printf("Int = %d\n", nt);
 			//Long User Input Field//
+			System.out.print("Enter a long: ");
+			lng = Input.nextLong();
+			System.out.printf("Long = %d\n", lng);
 			//Float User Input Field//
+			System.out.print("Enter a float: ");
+			flt = Input.nextFloat();
+			System.out.printf("Float = %f\n", flt);
 			//Double User Input Field//
+			System.out.print("Enter a double: ");
+			dbl = Input.nextDouble();
+			System.out.printf("Double = %G\n", dbl);
 			//Char User Input Field//
 			//String User Input Field//
 			//Boolean User Input Field//
