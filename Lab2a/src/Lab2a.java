@@ -65,6 +65,8 @@ public class Lab2a {
 			System.out.print("Enter a boolean: ");
 			bool = Input.nextBoolean();
 			System.out.printf("Boolean = %b\n", bool);
+			
+			Input.close();
 			//------------OUTPUT Answer-------------//
 			/*
 			 ***** Part1: ****
