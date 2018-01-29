@@ -32,7 +32,7 @@ public class Lab2a {
 			//Byte User Input Field//
 			System.out.print("Enter a byte: ");
 			byt = Input.nextByte();
-			System.out.printf("Byte = %d\n", byt);
+			System.out.printf("Byte = %c\n", byt);
 			//Short User Input Field//
 			System.out.print("Enter a short: ");
 			shrt = Input.nextShort();
