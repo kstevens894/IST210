@@ -36,6 +36,8 @@ public class Diamond {
 	}
 	//OUTPUT ANSWER
 	/*
+	 * 
+	 * 
 			*
 		   ***
 		  *****
