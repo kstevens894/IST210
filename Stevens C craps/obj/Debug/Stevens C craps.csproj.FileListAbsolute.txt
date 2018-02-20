@@ -1,0 +1,6 @@
+C:\Users\ktsca\OneDrive\Documents\GitHub\IST210\Stevens C craps\bin\Debug\Stevens C craps.exe.config
+C:\Users\ktsca\OneDrive\Documents\GitHub\IST210\Stevens C craps\obj\Debug\Stevens C craps.csprojResolveAssemblyReference.cache
+C:\Users\ktsca\OneDrive\Documents\GitHub\IST210\Stevens C craps\bin\Debug\Stevens C craps.exe
+C:\Users\ktsca\OneDrive\Documents\GitHub\IST210\Stevens C craps\bin\Debug\Stevens C craps.pdb
+C:\Users\ktsca\OneDrive\Documents\GitHub\IST210\Stevens C craps\obj\Debug\Stevens C craps.exe
+C:\Users\ktsca\OneDrive\Documents\GitHub\IST210\Stevens C craps\obj\Debug\Stevens C craps.pdb
