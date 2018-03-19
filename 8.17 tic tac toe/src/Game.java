@@ -13,9 +13,9 @@ public class Game {
 
 	private Mark[][] gameBoard = 
 	{
-		{Mark.EMPTY, Mark.EMPTY, Mark.EMPTY},
-		{Mark.EMPTY, Mark.EMPTY, Mark.EMPTY},
-		{Mark.EMPTY, Mark.EMPTY, Mark.EMPTY}
+		{Mark.E, Mark.E, Mark.E},
+		{Mark.E, Mark.E, Mark.E},
+		{Mark.E, Mark.E, Mark.E}
 	};
 	
 	private int turnCounter = 0;
@@ -30,7 +30,7 @@ public class Game {
 		int rowindex = (move - 1)/3;
 		int columnindex = (move - 1)%3;
 		int currentplayer = getPlayer(); 
-		if (gameBoard[rowindex][columnindex] == Mark.EMPTY) 
+		if (gameBoard[rowindex][columnindex] == Mark.E) 
 		{
 			if(currentplayer == 1) {
 				gameBoard[rowindex][columnindex] = Mark.X;

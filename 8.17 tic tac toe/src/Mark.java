@@ -1,4 +1,4 @@
 
 public enum Mark {
-		X, O, EMPTY;
+		X, O, E;
 }
