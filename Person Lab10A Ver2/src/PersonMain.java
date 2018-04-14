@@ -69,7 +69,7 @@ public class PersonMain {
 		}
 		if (arr.delete("Ming")){
 			System.out.println();
-			System.out.print("Successfully deleted \"Min\"");
+			System.out.print("Successfully deleted \"Ming\"");
 		}
 		else {
 			System.out.println();
@@ -86,7 +86,7 @@ public class PersonMain {
 		System.out.println();
 		System.out.println();
 		
-		System.out.print("Display all after deleting, Smith, Yee, and Williams.\n\n");
+		System.out.print("Display all after deleting, Steven, Ming, and Williams.\n\n");
 		arr.displayAll();
 		System.out.println();
 		System.out.println();
@@ -106,7 +106,7 @@ public class PersonMain {
 		age = input.nextInt();
 		System.out.println();
 		
-		arr.insert(lastName, firstName, age);
+		arr.insert(firstName, lastName, age);
 		System.out.printf("Enter Successfully %s, %s, %d%n", firstName, lastName, age);
 		
 		System.out.print("---------Display all persons---------\n");
