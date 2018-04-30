@@ -5,6 +5,10 @@ public class Automobile extends Vehicle implements VehicleDoor{
 	public Automobile(String hornSound){ super(hornSound); }
 	
 	public String getDoorType() {
-		return DoorType.NORMAL;
+		return VehicleDoor.DoorType.NORMAL.toString();
+	}
+	
+	public int getDoorCount() {
+		return 4;
 	}
 }
